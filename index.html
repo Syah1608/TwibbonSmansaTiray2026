@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twibbon MPLS SMAN 1 Tikke Raya 2024</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="header-title">Created by OSIS SMAN 1 Tikke Raya</div>
+    </header>
+     <div class="container">
+    <h1 class="welcome-title">Selamat datang para siswa baru SMANSA TIRAY. <br>Silahkan isi data di bawah ya, semangat MPLS-nyaa!</h1>
+    
+    <div class="text-controls">
+      <input type="text" id="name-input" class="text-input" placeholder="Nama">
+      <input type="text" id="origin-input" class="text-input" placeholder="Asal sekolah">
+      <input type="text" id="motto-input" class="text-input" placeholder="Motto (opsional)">
+      
+      <div id="template-text" class="template-text">
+        Halo semuanya! <br><br>👋 perkenalan saya <span id="name">Nama</span> dari <span id="origin">Asal sekolah</span>. Saya siap mengikuti Masa Pengenalan Lingkungan Sekolah (MPLS) 2026 di UPTD SMAN 1 TIKKE RAYA.<br><br>
+        🌟 Dengan semangat baru, saya siap mengenal lingkungan sekolah, guru, kakak OSIS, dan teman-teman baru. Semoga MPLS ini menjadi awal yang baik untuk perjalanan saya di jenjang SMA.<br><br>
+        Motto : <span id="motto">Motto</span><br><br>
+        See you di MPLS! ✨"for us and for a brighter future"✨<br><br>
+        #MPLS2026 #UPTDSMAN1TikkeRaya
+          <div class="salin"><button id="copy-text-btn">Salin Text</button></div>
+        </div>
+    </div>
+  </div>
+
+<div class="frame">
+            <canvas id="canvas" width="380" height="380"></canvas>
+            <img src="twibbon_mpls.png" alt="Twibbon Frame" class="frame1-img">
+        </div>
+        <div class="controls">
+            <label class="custom-file-upload">
+                <input type="file" id="upload" accept="image/*"><div class="tek">Upload Image</div>
+            </label>
+            <label for="zoom-slider">Zoom:</label>
+            <input type="range" id="zoom-slider" min="0.5" max="2" step="0.01" value="1">
+            <label for="x-offset-slider">Geser Kanan/Kiri:</label>
+            <input type="range" id="x-offset-slider" min="-200" max="200" step="1" value="0">
+            <label for="y-offset-slider">Geser Atas/Bawah:</label>
+            <input type="range" id="y-offset-slider" min="-200" max="200" step="1" value="0">
+            <span id="file-name"></span>
+            <button id="download-btn">Download</button>
+        </div>
+    </div>
+
+    <div id="notification" class="notification">Text copied to clipboard!</div>
+    <div id="spam-notification" class="spam-notification">Text sudah di salin loh ya, jadi jangan spam.</div>
+    <href=<h1>jangan lupa tag akun OSIS SMANSA TIRAY YUAAA</h1></href>
+  
+    
+    
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
